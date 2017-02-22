@@ -12,5 +12,5 @@ Keys:
    Right_arrow	   = move right
    
    
-Compile windows.
+Compile in Windows:
   Visual studio with NuGet package SDL2.
