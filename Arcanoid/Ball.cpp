@@ -32,7 +32,10 @@ Ball::Ball( Bar* _bar, SDL_Window* _window, enum GameState_t* _gamestate, Block 
 //----------------------------------------
 Ball::~Ball()
 {
-
+	delete window;
+	delete bar;
+	delete gamestate;
+	delete blocks;
 }
 
 
